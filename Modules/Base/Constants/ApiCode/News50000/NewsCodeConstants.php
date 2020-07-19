@@ -1,0 +1,43 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: derek
+ * Date: 2018/9/28
+ * Time: 下午 06:21
+ */
+
+namespace Modules\Base\Constants\ApiCode\News50000;
+
+class NewsCodeConstants
+{
+    const NAME_REQUIRED = 50000;
+    const NAME_BE_STRING = 50001;
+    const NAME_MAX = 50002;
+    const ID_BE_ARRAY = 50003;
+    const STATUS_REQUIRED = 50004;
+    const SELECTED_STATUS_IS_INVALID = 50005;
+    const IMAGE_TYPE_WRONG = 50006;
+    const IMAGE_REQUIRED = 50007;
+    const IMAGE_ID_BE_INTEGER = 50008;
+    const IMAGE_ID_REQUIRED = 50009;
+    const SEARCH_BE_STRING = 50010;
+    const CATEGORY_ID_BE_INTEGER = 50011;
+    const CATEGORY_REQUIRED = 50012;
+    const PUBLISH_TIME_DATE_TYPE_WRONG = 50013;
+    const PUBLISH_TIME_REQUIRED = 50014;
+    const SELECTED_POLLING_IS_INVALID = 50015;
+    const POLLING_REQUIRED = 50016;
+    const CONTENT_REQUIRED = 50017;
+    const CONTENT_BE_STRING = 50018;
+    const TOPIC_BE_ARRAY = 50019;
+    const TOPIC_ID_BE_INTEGER = 50020;
+    const UPLOAD_BE_ARRAY = 50021;
+    const UPLOAD_ID_BE_INTEGER = 50022;
+    const UPLOAD_FILE_REQUIRED = 50023;
+    const ID_COUNT_ONE_BETWEEN_HUNDRED = 50024;
+    const CATEGORY_NAME_IS_EXIST = 50025;
+    const UPLOAD_FILE_FAIL = 50026;
+    const COVER_IMAGE_ID_BE_INTEGER = 50027;
+    const NEWS_MANAGEMENT_IS_EXIST = 50028;
+    const UPLOAD_IDS_BETWEEN_MIN_MAX = 50029;
+}

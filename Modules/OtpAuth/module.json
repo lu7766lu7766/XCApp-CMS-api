@@ -1,0 +1,16 @@
+{
+    "name": "OtpAuth",
+    "alias": "otpauth",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\OtpAuth\\Providers\\OtpAuthServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

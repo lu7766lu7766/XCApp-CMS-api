@@ -1,0 +1,16 @@
+1. 請在你的Module > Config > config.php 貼上額外的設定來註明你的route需要的權限,格式範例如下
+'route' => [
+    'route1_name' => [ // route name
+        'permission' => PermissionValueConstants::POST,
+        'depend'     => 'first/second/three/four' // node uri at database
+    ],
+    'route2_name' => [
+        'permission' => PermissionValueConstants::GET,
+        'depend'     => 'first/second/three/four'
+    ],
+]
+2. 假如查詢不到route需要的額外權限,則會直接使用當前uri與method來判斷權限
+3. route method權限值對應表請參照 MethodPermissionConstants const 得知詳細內容.
+4. 目標controller namespace第二段文字 當作查找Module使用(預設模式),如你要自定義請複寫moduleName function.
+e.g Module/Base/Controller/YourController 則 Base被當作查找Module key
+3. CRUD權限值對應表請參照 PermissionValueConstants const 得知詳細內容.

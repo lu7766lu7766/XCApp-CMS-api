@@ -1,0 +1,24 @@
+{
+  "name": "nwidart/morphcounter",
+  "description": "",
+  "authors": [
+    {
+      "name": "Nicolas Widart",
+      "email": "n.widart@gmail.com"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Modules\\MorphCounter\\Providers\\MorphCounterServiceProvider"
+      ],
+      "aliases": {
+      }
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\MorphCounter\\": ""
+    }
+  }
+}

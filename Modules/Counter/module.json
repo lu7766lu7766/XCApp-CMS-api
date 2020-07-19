@@ -1,0 +1,16 @@
+{
+    "name": "Counter",
+    "alias": "counter",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Counter\\Providers\\CounterServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

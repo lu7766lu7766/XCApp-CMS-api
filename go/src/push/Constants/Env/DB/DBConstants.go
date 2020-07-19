@@ -1,0 +1,7 @@
+package DB
+
+const HOST_KEY = "DB_HOST"
+const PORT_KEY = "DB_PORT"
+const DB_DATABASE_KEY = "DB_DATABASE"
+const USERNAME_KEY = "DB_USERNAME"
+const PASSWORD_KEY = "DB_PASSWORD"

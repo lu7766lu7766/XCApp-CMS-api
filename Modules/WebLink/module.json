@@ -1,0 +1,16 @@
+{
+    "name": "WebLink",
+    "alias": "weblink",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\WebLink\\Providers\\WebLinkServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

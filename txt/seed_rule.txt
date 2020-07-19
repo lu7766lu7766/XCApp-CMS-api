@@ -1,0 +1,1 @@
+1. 如我你有Seeder要跑,請至database\seeds\DatabaseSeeder.php設定你的Seeder class,注意放置的順序

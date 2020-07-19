@@ -1,0 +1,24 @@
+1. Controller 回傳目前support以下類型
+(1)string or array or null
+(2)Class implement Arrayable
+2. api回傳類型只會是json,
+e.g.1 無exception發生,Controller正常回傳
+Controller 回傳 [ "name" => "house"] , 則response會如下
+{
+    "code" : 0,
+    "data" : { // data的item會是Controller回傳的內容
+        "name" : "house"
+    }
+}
+
+e.g.2 exception發生
+(1)預期內(ApiErrorCodeException)
+{
+    "code" : [1001,1002,1003]
+    "data" : "your msg."
+}
+(1)非預期(非ApiErrorCodeException class type)
+{
+    "code" : 500
+    "data" : "error msg."
+}
